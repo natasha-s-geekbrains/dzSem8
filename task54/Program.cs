@@ -6,8 +6,9 @@ using System.Globalization;
 int row = GetNum("Введите кол-во строк двумерного массива (число > 0): ");
 int column = GetNum("Введите кол-во столбцов двумерного массива (число > 0): ");
 int[,] inMatrix = GetMatrix(row, column);
+Console.WriteLine("Первичный массив:");
 PrintMatrix(inMatrix);
-Console.WriteLine();
+Console.WriteLine("Упорядоченный массив:");
 ShowSortedRows(inMatrix);
 
 

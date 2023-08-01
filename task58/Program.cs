@@ -8,11 +8,12 @@ int column1 = GetNum("Введите кол-во столбцов для пер�
 int column2 = GetNum("Введите кол-во столбцов для второй матрицы: ");
 int[,] inMatrix1 = GetMatrix(row1, column1);
 int[,] inMatrix2 = GetMatrix(column1, column2);
+Console.WriteLine("Первая матрица:");
 PrintMatrix(inMatrix1);
-Console.WriteLine();
+Console.WriteLine("Вторая матрица:");
 PrintMatrix(inMatrix2);
-Console.WriteLine();
 int[,] resultMatrix = GetMatrix3(inMatrix1, inMatrix2);
+Console.WriteLine("Произведение двух матриц:");
 PrintMatrix(resultMatrix);
 
 int GetNum(string message)

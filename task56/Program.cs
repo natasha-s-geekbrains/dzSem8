@@ -74,6 +74,6 @@ void MinSum(int[] inRowArray)
             minSumRowIndex = i;
         }
     }
-    Console.WriteLine($"Минимальная сумма -> {minSum}");
+    Console.WriteLine($"Наименьшая сумма -> {minSum}");
     Console.WriteLine($"Строка номер {minSumRowIndex+1} имеет наименьшую сумму.");
 }
